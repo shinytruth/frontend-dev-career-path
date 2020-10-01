@@ -1,0 +1,16 @@
+/* ==========================
+	Write your solution here!
+   ========================== */
+   
+.outer-box{
+	width: 100px;
+    padding: 10px;
+	margin: 100px auto;
+	border: 20px solid #f24c46;
+}
+
+.inner-box {
+	height: 60px;
+	width: 60px;
+	border: 20px solid #1785eb;
+}

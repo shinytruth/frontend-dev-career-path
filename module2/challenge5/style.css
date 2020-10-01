@@ -1,0 +1,51 @@
+body {
+    background-color: #FFCCF9;
+    display: flex;
+    justify-content: center;
+}
+
+.grid {
+    margin-top: 30px;
+    width: 396px;
+    height: 396px;
+    border: solid white 8px;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+    border: solid white 0.5px;
+}
+
+/*wall in the square, a power-pellet in the square, a pac-dot in the
+//square, pac-man himself, or the four ghosts, inky, blinky, pinky and clyde. */
+
+.wall {
+    background-color: burlywood;    
+}
+.power-pellet {
+    background-color: red;    
+}
+.pac-dot {
+    background-color: black;    
+}
+.pac-man {
+    background-color: yellow;    
+}
+.inky {
+    background-color: indigo;    
+}
+.blinky {
+    background-color: blue;    
+}
+.pinky {
+    background-color: orange;    
+}
+.clyde {
+    background-color: green;    
+}
+
+

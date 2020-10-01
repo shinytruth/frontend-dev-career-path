@@ -1,0 +1,83 @@
+/*
+h1 - 48px
+h2 - 36px
+h3 - 28px
+all other text - 21px
+
+colors: 
+   #588C94 
+   #1D3C41
+*/
+
+body {
+    margin: 0
+}
+
+header {
+    background: #588C94;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    color: white;
+}
+
+h2 {
+    
+    font-size: 36px;
+    color: #4a4a4a;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+p {    
+    font-size: 21px;
+}
+
+.main { 
+    width: 650px;
+    margin: 75px auto;
+    text-align: center;
+    border: 5px solid hotpink
+}
+
+.main p {
+    color: #4a4a4a;    
+}
+
+footer {
+    background: #1D3C41;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.columns {
+    width: 1000px;
+    margin: 0 auto;
+    color: white;
+    border: 5px solid yellow;
+    display: flex;
+    padding-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.column {
+    text-align: center;
+    border: 5px solid skyblue;
+    margin-left: 8px;
+    padding : 3px;
+}
+
+.column h3 {
+    margin: 0
+}
+
+.column p {
+    margin-bottom: 0
+}

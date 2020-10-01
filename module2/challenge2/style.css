@@ -1,0 +1,17 @@
+/* ==========================
+	Write your solution here!
+   ========================== */
+   
+   
+   
+   .columns {
+       margin: 100px 0px;
+       display: flex;
+       text-align: center
+   }
+   
+   .column {
+       width: 200px;
+       margin: 0 auto;
+       
+   } 
